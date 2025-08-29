@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natural Fluency in English 🇧🇷🇺🇸🇬🇧</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --dark-background: #0d0c1d;
+      --main-gradient: linear-gradient(90deg, #ff9f00, #ff1b00);
+      --header-gradient: linear-gradient(45deg, #0077ff, #00fff2);
+      --sub-gradient: linear-gradient(90deg, #ff9f00, #ff1b00);
+      --explanation-gradient: linear-gradient(45deg, #ff00c3, #6a00ff);
+      --context-gradient: linear-gradient(90deg, #00aaff, #4dff00);
+      --table-header-bg: #22223b;
+      --table-border-color: #4a4e69;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--dark-background);
+      background-image: radial-gradient(circle at 50% 50%, rgba(255, 0, 127, 0.1) 0%, rgba(13, 12, 29, 0.8) 50%, rgba(13, 12, 29, 1) 100%);
+      color: #e0e0e0;
+    }
+    .gradient-text {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+    }
+    .main-gradient-text { background-image: var(--main-gradient); }
+    .styled-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+    .styled-table thead tr {
+      background-color: var(--table-header-bg);
+      color: #ffffff;
+      text-align: left;
+    }
+    .styled-table th, .styled-table td {
+      padding: 12px 15px;
+    }
+    .styled-table tbody tr {
+      border-bottom: 1px solid var(--table-border-color);
+    }
+    .styled-table tbody tr:nth-of-type(even) {
+      background-color: #1a1a2e;
+    }
+    .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid var(--table-border-color);
+    }
+    .situation-card {
+      background-color: #1a1a2e;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+    .situation-title {
+      font-weight: 600;
+      color: #ff9f00;
+      margin-bottom: 0.5rem;
+    }
+    .situation-text {
+      color: #e0e0e0;
+      margin-bottom: 0.5rem;
+    }
+    .situation-context {
+      color: #aaaaff;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body class="p-8 md:p-12 min-h-screen">
+  <div class="max-w-5xl mx-auto space-y-12">
+    <!-- Header -->
+    <header class="text-center mb-16">
+      <h1 class="text-5xl md:text-6xl font-extrabold main-gradient-text gradient-text leading-tight">
+        🎵 It's My Life – Useful Expressions
+      </h1>
+      <p class="mt-4 text-lg text-gray-300">From lyrics → to real workplace English 🇧🇷➡️🇺🇸🇬🇧</p>
+    </header>
+
+    <!-- Table Section -->
+    <section>
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Casual English</th>
+            <th>Formal English</th>
+            <th>Tradução (PT-BR)</th>
+            <th>Business / Workplace Context</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>It's my life, take it or leave it</td>
+            <td>This is my life; the choice is yours</td>
+            <td>É a minha vida, aceite ou não</td>
+            <td>Expressar autonomia sobre decisões pessoais ou profissionais.</td>
+          </tr>
+          <tr>
+            <td>Set me free, what's that crap</td>
+            <td>Allow me to act independently; avoid nonsense instructions</td>
+            <td>Me deixe livre, pare com essas bobagens</td>
+            <td>Lidar com microgerenciamento de forma assertiva.</td>
+          </tr>
+          <tr>
+            <td>I got my own life, you got your own life</td>
+            <td>I have my responsibilities and so do you</td>
+            <td>Eu tenho minha própria vida, você tem a sua</td>
+            <td>Delimitar responsabilidades entre colegas ou equipes.</td>
+          </tr>
+          <tr>
+            <td>Live your own life and set me free</td>
+            <td>Please focus on your tasks and allow me to handle mine</td>
+            <td>Viva sua própria vida e me deixe livre</td>
+            <td>Pedir autonomia e evitar interferência em suas tarefas.</td>
+          </tr>
+          <tr>
+            <td>Mind your business and leave my business</td>
+            <td>Kindly attend to your responsibilities and let me manage mine</td>
+            <td>Cuide do seu negócio e deixe o meu</td>
+            <td>Estabelecer limites claros de responsabilidades no ambiente profissional.</td>
+          </tr>
+          <tr>
+            <td>Very little knowledge is dangerous</td>
+            <td>Partial knowledge can lead to mistakes</td>
+            <td>Pouco conhecimento é perigoso</td>
+            <td>Justificar necessidade de revisão, treinamento ou consulta a especialistas.</td>
+          </tr>
+          <tr>
+            <td>Stop bugging me / stop bothering me</td>
+            <td>Please stop interrupting or disturbing me</td>
+            <td>Pare de me incomodar / encher</td>
+            <td>Solicitar que colegas parem de interromper; grau leve → médio.</td>
+          </tr>
+          <tr>
+            <td>Stop yelling me</td>
+            <td>Please refrain from shouting at me</td>
+            <td>Pare de gritar comigo</td>
+            <td>Quando a voz alta afeta sua concentração; grau médio → forte.</td>
+          </tr>
+          <tr>
+            <td>Day and night</td>
+            <td>Continuously / all the time</td>
+            <td>Dia e noite</td>
+            <td>Descrever esforços constantes ou sobrecarga de trabalho.</td>
+          </tr>
+          <tr>
+            <td>Stop telling me how to run your business</td>
+            <td>Please do not instruct me on how to manage my responsibilities</td>
+            <td>Pare de me dizer como administrar meu negócio / trabalho</td>
+            <td>Delimitar autonomia; grau forte → muito forte.</td>
+          </tr>
+          <tr>
+            <td>Take a trip to east and west</td>
+            <td>Explore different perspectives / environments</td>
+            <td>Viaje para leste e oeste</td>
+            <td>Incentivar aprendizado global ou benchmarking de mercado.</td>
+          </tr>
+          <tr>
+            <td>Tired of you</td>
+            <td>Colleagues are fatigued by your behavior</td>
+            <td>Cansado de você</td>
+            <td>Feedback profissional para comportamento repetitivo ou improdutivo.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Real Situations Section -->
+    <section class="mt-16">
+      <h2 class="text-3xl font-bold main-gradient-text gradient-text mb-6 text-center">
+        💼 Real Situations – Practice Using the Expressions
+      </h2>
+
+      <div class="space-y-6">
+        <div class="situation-card">
+          <p class="situation-text">Imagine you are at work and a colleague keeps interrupting your tasks repeatedly.</p>
+          <p class="situation-title">Expressions you can use:</p>
+          <ul class="list-disc list-inside space-y-1 text-gray-200">
+            <li>Stop bugging me / stop bothering me (grau leve → médio)</li>
+            <li>Stop yelling me (grau médio → forte)</li>
+            <li>Mind your business and leave my business (grau forte → muito forte)</li>
+          </ul>
+          <p class="situation-context">Context: Assert boundaries depending on the intensity of the interference.</p>
+        </div>
+
+        <div class="situation-card">
+          <p class="situation-text">Your manager keeps trying to control minor decisions that are your responsibility.</p>
+          <p class="situation-title">Expressions you can use:</p>
+          <ul class="list-disc list-inside space-y-1 text-gray-200">
+            <li>Stop telling me how to run your business (grau forte → muito forte)</li>
+            <li>I got my own life, you got your own life</li>
+            <li>It's my life, take it or leave it</li>
+          </ul>
+          <p class="situation-context">Context: Showing autonomy and confidence in decision-making.</p>
+        </div>
+
+        <div class="situation-card">
+          <p class="situation-text">After long hours working on a project, you feel exhausted by repeated interruptions and unnecessary advice.</p>
+          <p class="situation-title">Expressions you can use:</p>
+          <ul class="list-disc list-inside space-y-1 text-gray-200">
+            <li>Very little knowledge is dangerous</li>
+            <li>Tired of you</li>
+            <li>Live your own life and set me free</li>
+          </ul>
+          <p class="situation-context">Context: Expressing frustration and boundaries in a professional but non-aggressive way.</p>
+        </div>
+
+        <div class="situation-card">
+          <p class="situation-text">You are collaborating with a global team and need to explore different strategies.</p>
+          <p class="situation-title">Expressions you can use:</p>
+          <ul class="list-disc list-inside space-y-1 text-gray-200">
+            <li>Take a trip to east and west</li>
+            <li>Day and night</li>
+          </ul>
+          <p class="situation-context">Context: Encouraging global exploration and continuous effort.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-12 text-gray-400">
+      <p>Built with ❤️ for English learners | Inspired by Dr. Alban’s classic hit</p>
+    </footer>
+  </div>
+</body>
+</html>
